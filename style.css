@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  
 }
 
 html {
@@ -36,7 +37,11 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
+  border-bottom: 2px;
+  border-style: solid; 
+  border-color: beige;
+  
 }
 
 .nav-links {
@@ -167,6 +172,8 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  
+  padding-top: 0;
 }
 
 .section__pic-container {
@@ -294,8 +301,10 @@ section {
 }
 
 .details-container {
+
   padding: 1.5rem;
   flex: 1;
+  
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -318,6 +327,7 @@ section {
 
 #experience {
   position: relative;
+  
 }
 
 .experience-sub-title {
@@ -339,13 +349,13 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: center;
   gap: 0.5rem;
 }
 
@@ -429,4 +439,20 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.Skillset {
+  
+  background-color: rgb(201, 241, 255);
+}
+.About {
+  background-color:rgb(235, 235, 205);
+}
+
+.contact-sect {
+  background-color: rgb(201, 241, 255);
+}
+
+.proj {
+  background-color:rgb(235, 235, 205);
 }
